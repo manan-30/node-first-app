@@ -1,0 +1,18 @@
+{
+    "name": "first_app",
+    "version": "1.0.0",
+    "main": "first.js",
+    "scripts": {
+        "start": "node src/app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.4",
+        "hbs": "^4.1.0",
+        "request": "^2.88.0"
+    },
+    "devDependencies": {},
+    "description": ""
+}
