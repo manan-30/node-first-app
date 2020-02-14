@@ -29,15 +29,18 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'Manan Thakkar',
-        name: 'Manan'
+        title: 'Weather App',
+        para: 'This site was created by Manan Thakkar.',
+        footer: "Manan Thakkar",
+        name: 'Manan Thakkar'
     })
 })
 
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
-        name: 'Manan'
+        para: 'This is help page',
+        name: 'Manan Thakkar'
     })
 })
 
